@@ -8,7 +8,8 @@ end
 """
   trophic_level(N::T) where {T<:UnipartiteNetwork}
   
-  The function is mesuring the trophic levels for each species in a given unipartite network
+  The function is mesuring the trophic level for each species in a given unipartite network
+  
 """
 function trophic_level(N::T) where {T<:UnipartiteNetwork}
   TL = fractional_trophic_level(N)
