@@ -1,3 +1,10 @@
+"""
+    omnivory(N::T) where {T <: UnipartiteNetwork}
+
+This function measure an omnivory value for each species.
+
+"""
+
 function omnivory(N::T) where {T <: UnipartiteNetwork}
     OI = Dict([s => 0.0 for s in species(N)])
 
