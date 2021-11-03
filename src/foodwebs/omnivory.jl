@@ -3,6 +3,10 @@
 
 This function measure an omnivory value for each species.
 
+    length(omnivory(N))
+
+This command gives you the number of omnivories species in the network.
+
 """
 
 function omnivory(N::T) where {T <: UnipartiteNetwork}
