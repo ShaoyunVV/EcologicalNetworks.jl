@@ -26,7 +26,7 @@ fractional_trophic_level
 trophic_level
 ```
 
-## Loop
+## Loops
 
 ```@docs
 count_loop
