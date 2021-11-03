@@ -31,6 +31,7 @@ makedocs(
             "Motifs" => "properties/motifs.md",
             "Centrality and paths" => "properties/paths.md",
             "Overlap and similarity" => "properties/overlap.md"
+            "Others" => "properties/others.md"
         ],
         "Advanced information" => [
             "Beta-diversity" => "properties/betadiversity.md",
