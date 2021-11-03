@@ -5,7 +5,11 @@ function fractional_trophic_level(N::T) where {T<:UnipartiteNetwork}
   prod_id = findall(isequal(0), vec(sum(sp; dims=2)))
   return Dict(zip(species(Y; dims=1), maximum(sp[:,prod_id]; dims=2).+1))
 end
-
+"""
+  trophic_level(N::T) where {T<:UnipartiteNetwork}
+  
+  The function is mesuring the trophic levels for each species each species in a given unipartite network
+"""
 function trophic_level(N::T) where {T<:UnipartiteNetwork}
   TL = fractional_trophic_level(N)
   Y = nodiagonal(N)
