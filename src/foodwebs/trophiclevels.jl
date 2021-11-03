@@ -8,7 +8,8 @@ end
 """
   trophic_level(N::T) where {T<:UnipartiteNetwork}
   
-  The function is mesuring the trophic level for each species in a given unipartite network
+  The function is mesuring the trophic level for each species in a given unipartite network. The trophic level defines the place of the species in the network.
+  With a species trophic evel we can determined it's predators and preys. We can also predict it's function in the network.
   
 """
 function trophic_level(N::T) where {T<:UnipartiteNetwork}
