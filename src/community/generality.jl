@@ -1,6 +1,7 @@
 """
   generality(N::UnipartiteNetwork)
-  This function mesure the generality. The generality represents the link density (L/S) divided by the number of predators. Number of predators: (prop. of int + prop. of top)xS
+
+This function mesure the generality. The generality represents the link density (L/S) divided by the number of predators. The number of predators: (prop. of int + prop. of top)xS
 """
 function generality(N::UnipartiteNetwork)
     out_degree = collect(values(degree(N; dims=1)))
