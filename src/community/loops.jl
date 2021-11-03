@@ -1,6 +1,6 @@
 """
     count_loops(N::UnipartiteNetwork)
- This function is counting the number of loops in a given network.
+ This function is counting the number of loops in a given network. Loops are trophic chains where a species is appearing more than one time.
 
 """
 function count_loops(N::UnipartiteNetwork)
