@@ -1,4 +1,6 @@
 """
+    cannibalism(N::UnipartiteNetwork)
+
 This function is counting the number of species that interact with themselves in a given network.
 """
 function cannibalism(N::UnipartiteNetwork)
