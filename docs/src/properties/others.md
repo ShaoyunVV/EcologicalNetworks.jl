@@ -26,12 +26,12 @@ fractional_trophic_level
 trophic_level
 ```
 
-##Loop
+## Loop
 
 ```@docs
 count_loop
 ```
-##Cannibalism 
+## Cannibalism 
 ```@docs
 cannibalism
 ```
